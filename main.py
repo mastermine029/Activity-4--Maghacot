@@ -33,7 +33,7 @@ Image View
         
     elif usein == 2:
         os.system("cls")
-        print("Input Complete and Correct Filepath of your Image. Take note: The program may fail if the input is wrong!")
+        print("Input complete Filepath of your image. Take note: The program may 'FAIL' if the input is wrong or incomplete!")
         path1 = input("Filepath:")
         usein = int(input("1 - Color \n2 - Grayscale \n3 - Unchanged \nRead image as: "))
         if usein == 1:
