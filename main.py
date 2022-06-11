@@ -1,13 +1,13 @@
 import cv2
 import os
 
-os.system("cls")
+
 
 def menu():
+    os.system("cls")
     path = "eyy.jpg"
     show = """
 Image View
-
 1 - View provided image
 2 - Use your own image """
     print(show)
@@ -24,7 +24,7 @@ Image View
         elif usein == 2:
             os.system("cls")
             image = cv2.imread(path, 0)
-            cv2.imshow("Kenneth: Wanted ng Carissa", image)
+            cv2.imshow("Kenneth: Biktima ng SOCO", image)
             cv2.waitKey(0)
             cv2.destroyAllWindows()
         else:
@@ -55,4 +55,3 @@ Image View
         menu()
 
 menu()
-
