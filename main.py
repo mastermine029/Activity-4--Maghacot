@@ -50,7 +50,8 @@ Image View
         else:
             exit()
     else:
-        print("Please choose between 1 and 2 only")
+        print("Wrong Input. Hit enter to continue")
+        usein=(input("")
         menu()
 
 menu()
