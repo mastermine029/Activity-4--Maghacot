@@ -43,7 +43,7 @@ Image View
             cv2.destroyAllWindows()
         elif usein == 2:
             os.system("cls")
-            image = cv2.imread(path, 0)
+            image = cv2.imread(path1, 0)
             cv2.imshow("Grayscale Image", image)
             cv2.waitKey(0)
             cv2.destroyAllWindows()
