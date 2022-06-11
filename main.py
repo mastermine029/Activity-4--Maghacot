@@ -15,7 +15,7 @@ Image View
     
     if usein == 1:
         os.system("cls")
-        usein = int(input("1 - Color \n2 - Grayscale \n: "))
+        usein = int(input("1 - Colored \n2 - Grayscale \n: "))
         if usein == 1:
             image = cv2.imread(path, 1)
             cv2.imshow("Kenneth: Pag-Asa ng Carissa", image)
@@ -35,7 +35,7 @@ Image View
         os.system("cls")
         print("Input complete Filepath of your image. Take note: The program may 'FAIL' if the input is wrong or incomplete!")
         path1 = input("Filepath:")
-        usein = int(input("1 - Color \n2 - Grayscale \n3 - Unchanged \nRead image as: "))
+        usein = int(input("1 - Colored \n2 - Grayscale \nRead image as: "))
         if usein == 1:
             image = cv2.imread(path1, 1)
             cv2.imshow("Colored Image", image)
