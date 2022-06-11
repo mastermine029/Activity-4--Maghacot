@@ -51,7 +51,7 @@ Image View
             exit()
     else:
         print("Wrong Input. Hit enter to continue")
-        usein=(input("")
+        usein=(input(""))
         menu()
 
 menu()
